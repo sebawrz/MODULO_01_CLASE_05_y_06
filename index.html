@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Perfil del Alumno - Sebastian Wrzesinski</title>
+</head>
+
+<body>
+    <!--Header + Menu de Navegación-->
+    <header class="bloques nav">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#perfil">Perfil</a>
+            <a href="#bio">Bio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <!--Secciones  de Contenido-->
+    <main>
+        <!--Seccion Perfil-->
+        <section id="perfil" class="bloques">
+            <h1>Perfil del Alumno</h1>
+            <picture>
+                <img src="images/sebastian_wrzesinski.jpg" alt="Foto de Sebastian Wrzesinski" class="bordesRedondos">
+            </picture>
+            <h2>Datos Personales</h2>
+            <ul>
+                <li><b>Nombre:</b> Sebastián</li>
+                <li><b>Apellido:</b> Wrzesinski</li>
+                <li><b>Residencia</b>
+                    <ul>
+                        <li><b>Pais:</b> Argentina</li>
+                        <li><b>Ciudad:</b> Ciudad Autónoma de Buenos Aires</li>
+                        <li><b>Barrio:</b> Nuñez</li>
+                    </ul>
+                </li>
+                <li><b>Edad:</b> 35</li>
+                <li><b>Email:</b> sebastian_wrz@outlook.com</li>
+            </ul>
+        </section>
+        <!--Seccion Bio-->
+        <section id="bio" class="bloques">
+            <h2>Presentación</h2>
+            <p><i> Pienso en River, luego existo.</i> Además SimRacer (o intento de); asi que no se asusten si todos mis
+                desafios y
+                entregas están
+                relacionados a la actividad. <b>Solo madrugo si corre la F1</b>. </p>
+
+            <p>Luego de muchos años alejado de la web y el
+                coding, vuelvo
+                para afianzar conocimientos, ponerme al dia y formalizar una
+                educación digital que casi siempre fue autodidacta.Actualmente trabajando en una FinTech en el área de
+                Operaciones y Tecnologia para Latam y Caribe</p>
+
+            <p>Podes encontrar algunas de mis pinturas para iRacing en
+                <a href="https://www.tradingpaints.com/profile/627736/Sebastian-Wrzesinski" target="_blank"
+                    rel="noreferrer">mi perfil de Trading Paints</a>
+            </p>
+        </section>
+        <!--Seccion Formulario de Contacto-->
+        <section id="contacto" class="bloques">
+            <h2>Formulario de Contacto</h2>
+            <p>Si tenes alguna duda o queres contactarte conmigo, completá el siguiente formulario y me pondrè en
+                contacto contigo a la brevedad.</p>
+            <form action="">
+                <fieldset>
+                    <label for="form-nombre">Nombre</label>
+                    <input type="text" id="form-nombre" name="Nombre" placeholder="Ingrese aquí su primer nombre">
+                    <label for="form-apellido">Apellido</label>
+                    <input type="text" id="form-apellido" name="Apellido" placeholder="Ingrese aquí su primer apellido">
+                    <label for="form-email">Email</label>
+                    <input type="email" id="form-email" name="Email" placeholder="Ingrese aquí su email">
+                    <label for="form-mensaje">Su consulta</label>
+                    <textarea id="form-mensaje" name="Mensaje" placeholder="Ingrese aquí su consulta"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar formulario</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

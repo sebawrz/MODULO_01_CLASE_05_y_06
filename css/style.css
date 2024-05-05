@@ -1,0 +1,58 @@
+body {
+    background-color: #191b1f;
+    background-image: url(../images/web-background.png);
+    background-position: right bottom;
+    background-size: 70%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #f9fff0;
+    font-size: 1rem;
+    font-family: "Roboto";
+    line-height: 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+    text-shadow: 2px 4px #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+a:hover {
+    color: red;
+    text-shadow: 2px 4px #000000;
+
+}
+
+li {
+    list-style: none;
+}
+
+.bloques {
+    width: 45%;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: rgbA(43, 46, 51, 0.8);
+    border-radius: 1rem;
+    border: #515355 1px solid;
+    box-shadow: 2px 4px 2px 1px #000000;
+}
+
+.nav {
+    background-color: #000000;
+    border: #313333 1px solid;
+}
+
+
+.bordesRedondos {
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 2px 4px 2px 1px #000000;
+}
